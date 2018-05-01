@@ -16,11 +16,10 @@ public class testclient {
         try {
             HashMap<String, String> reqMap = new HashMap<String, String>();
             reqMap.put("urlType", "recvJoinSync");
-            reqMap.put("CI", URLEncoder.encode("tv06dd7uvghEOiuOeQMniful1vnd06vHZ/X6Bed3FnePe7MjePfcCnMTnPFtZ/T2jzobB6AJzrMTP6cxrD2N8Q==", "UTF-8"));
-            reqMap.put("ID", URLEncoder.encode("c@c.com","UTF-8"));
+//            reqMap.put("CI", URLEncoder.encode("CI이당", "UTF-8"));
+//            reqMap.put("ID", URLEncoder.encode("c@c.com","UTF-8"));
 
 
-//            reqMap.put("custCi", "tv06dd7uvghEOiuOeQMniful1vnd06vHZ/X6Bed3FnePe7MjePfcCnMTnPFtZ/T2jzobB6AJzrMTP6cxrD2N8Q==");
 //            reqMap.put("memId", "c@c.com");
             reqMap.put("HP_NO", "010-9775-1963");
             reqMap.put("REG_DATE", "20180501");
